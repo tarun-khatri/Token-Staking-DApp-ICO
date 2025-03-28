@@ -26,7 +26,9 @@ const activities = () => {
       LOAD_DATA();
     }, [address])
 
-  return <>
+  return <div 
+  className="body-backgroundColor "
+>
   <Header page={"activity"}/>
     <div className="new-margin"></div>
         <Statistics  poolDetails={poolDetails}/>
@@ -36,7 +38,7 @@ const activities = () => {
         <ICOSale setLoader={setLoader}/>
         {loader && <Loader/>}
     
-    </>;
+    </div>;
 };
 
 export default activities;

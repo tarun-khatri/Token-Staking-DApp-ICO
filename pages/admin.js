@@ -37,7 +37,9 @@ const admin = () => {
     LOAD_DATA();
   }, [address])
 
-  return <>
+  return <div 
+  className="body-backgroundColor "
+>
   <Header page={"admin"}/>
   <AdminHead
     
@@ -61,7 +63,7 @@ const admin = () => {
 
   {checkAdmin && <Auth/>}
   {loader && <Loader/>}
-  </>;
+  </div>;
 };
 
 
