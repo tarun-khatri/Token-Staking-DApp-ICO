@@ -29,7 +29,11 @@ const Header = ({
     }
   ]
 
-  return <header className="header">
+  return <header 
+    style={{
+    backgroundColor: "#17142a",
+    }}
+  className="header">
     <div className="container">
       <div className="row">
           <div className="col-12">

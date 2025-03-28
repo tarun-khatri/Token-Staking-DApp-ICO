@@ -32,7 +32,9 @@ const index = () => {
   }, [address])
 
 
-  return <>
+  return <div 
+    className="body-backgroundColor "
+  >
     <Header/>
     
     <HeroSection
@@ -82,7 +84,7 @@ const index = () => {
     {contactUs && <Contact setContactUs={setContactUs}/>}
 
     {loader && <Loader/>}
-  </>;
+  </div>;
 };
 
 export default index;
