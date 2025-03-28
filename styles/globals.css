@@ -150,3 +150,22 @@
   align-items: center;
   z-index: 9999; /* Ensure it covers other content */
 }
+
+/* Token Section Styles */
+.section__title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section__text {
+  color: #999;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
